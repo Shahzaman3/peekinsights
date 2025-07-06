@@ -1,4 +1,5 @@
 import React from "react";
+import tick from "../assets/tick.jpg";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
               ore
               <img
                 className="object-cover h-8 md:h-12 inline-block gap-2"
-                src="./src/assets/tick.jpg"
+                src={tick}
                 alt="tick"
               />
             </span>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import arrow from "../assets/arrow.png";
 
 export default class Included extends Component {
   render() {
@@ -36,7 +37,7 @@ export default class Included extends Component {
             <div className="hidden md:block mx-6 w-[50vw] h-[50vh] rounded-full ">
               <img
                 className="object-cover"
-                src="./src/assets/arrow.png"
+                src={arrow}
                 alt=""
               />
             </div>

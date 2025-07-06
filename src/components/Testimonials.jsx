@@ -6,6 +6,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import olivia from "../assets/olivia.jpeg";
 import grace from "../assets/grace.jpeg";
 import lizzie from "../assets/lizzie.jpeg";
+import star from "../assets/truststar.svg";
 
 const slides = [
   {
@@ -36,27 +37,27 @@ const Testimonials = () => {
         <div className="flex">
           <img
             className="h-5 w-5 object-cover"
-            src="./src/assets/truststar.svg"
+            src={star}
             alt=""
           />
           <img
             className="h-5 w-5 object-cover"
-            src="./src/assets/truststar.svg"
+            src={star}
             alt=""
           />
           <img
             className="h-5 w-5 object-cover"
-            src="./src/assets/truststar.svg"
+            src={star}
             alt=""
           />
           <img
             className="h-5 w-5 object-cover"
-            src="./src/assets/truststar.svg"
+            src={star}
             alt=""
           />
           <img
             className="h-5 w-5 object-cover"
-            src="./src/assets/truststar.svg"
+            src={star}
             alt=""
           />
         </div>
