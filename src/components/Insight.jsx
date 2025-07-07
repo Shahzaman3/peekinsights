@@ -12,14 +12,14 @@ export default class Insight extends Component {
               alt=""
             />
           </div>
-          <h3 className="font-serif font-light text-xl px-6 mt-15 mb-4">
+          <h3 className="font-serif font-light text-xl md:text-3xl lg:text-4xl px-6 mt-15 mb-4">
             Get valuable insights to increase
             your conversions, average order
             value and build brand trust.
           </h3>
         </div>
         <div className="w-full py-6 pt-20">
-          <h4 className="font-sans font-light text-xl mt-15 px-6">
+          <h4 className="font-sans font-light text-xl md:text-3xl lg:text-4xl mt-15 px-6">
             Turn your website visitors into happy customers. We
             analyze your store, identify friction points, and craft
             a plan to improve conversions tailor made for your
