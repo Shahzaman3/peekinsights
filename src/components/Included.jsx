@@ -28,7 +28,7 @@ export default class Included extends Component {
               what's included
             </span>
           </div>
-          <h1 className="absolute font-serif font-light text-3xl md:text-5xl px-6 py-4 xl:py-10 leading-tight">
+          <h1 className="absolute font-serif font-light text-3xl md:text-5xl px-6 py-10 leading-tight">
             A personalized action plan <br /> for growth
           </h1>
         </div>
@@ -41,7 +41,7 @@ export default class Included extends Component {
                 alt=""
               />
             </div>
-            <h4 className="font-sans font-light md:text-2xl px-6 py-2 mb-6">
+            <h4 className="font-sans font-light md:text-2xl px-6 pt-25 md:py-2 mb-6">
               Get a clear plan with actionable recommendations that prioritise
               user experience and lead to sustainable growth for your brand.
             </h4>

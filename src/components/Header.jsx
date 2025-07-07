@@ -36,11 +36,11 @@ const Header = () => {
           />
         </a>
         <div className="flex items-center gap-4 mr-4 text-xl font-light">
-          <a className="hidden text-base lg:block" href="">Beneifts</a>
-          <a className="hidden text-base lg:block" href="">Testimonials</a>
-          <a className="hidden text-base lg:block" href="">What's Included</a>
-          <a className="hidden text-base lg:block" href="">How It Works</a>
-          <a className="hidden text-base lg:block" href="">Pricing</a>
+          <a className="hidden text-lg lg:block" href="">Beneifts</a>
+          <a className="hidden text-lg lg:block" href="">Testimonials</a>
+          <a className="hidden text-lg lg:block" href="">What's Included</a>
+          <a className="hidden text-lg lg:block" href="">How It Works</a>
+          <a className="hidden text-lg lg:block" href="">Pricing</a>
           <button className="hidden md:block items-center my-auto py-1 bg-black text-white rounded-xl border-2 border-black hover:bg-white hover:text-black">
             <a className="px-4 text-sm" href="">
               Get a free Audit

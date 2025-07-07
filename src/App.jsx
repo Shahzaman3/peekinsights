@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Scroller from './components/Scroller'
 import Testimonials from './components/Testimonials'
 import Included from './components/Included'
+import Pack from './components/Pack'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Testimonials />
     <Scroller />
     <Included />
+    <Pack />
     <Footer />
     </>
   )
