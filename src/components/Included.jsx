@@ -33,8 +33,8 @@ export default class Included extends Component {
           </h1>
         </div>
         <div className="">
-          <div className="flex mt-10">
-            <div className="hidden md:block mx-6 w-[50vw] h-[50vh] rounded-full ">
+          <div className="flex mt-35 pb-15 items-center">
+            <div className="hidden md:block mx-6 w-[20vw] h-[20vh] rounded-full ">
               <img
                 className="object-cover"
                 src={arrow}

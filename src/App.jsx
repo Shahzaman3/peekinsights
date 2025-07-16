@@ -13,7 +13,7 @@ import Pack from './components/Pack'
 function App() {
 
   return (
-    <>
+    <div className='overflow-hidden'>
     <Header />
     <Hero />
     <Insight />
@@ -23,7 +23,7 @@ function App() {
     <Included />
     <Pack />
     <Footer />
-    </>
+    </div>
   )
 }
 

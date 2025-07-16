@@ -35,33 +35,71 @@ const Header = () => {
             alt="Peek Insights Logo"
           />
         </a>
-        <div className="flex items-center gap-4 mr-4 text-xl font-light">
-          <a className="hidden text-lg lg:block" href="">Beneifts</a>
-          <a className="hidden text-lg lg:block" href="">Testimonials</a>
-          <a className="hidden text-lg lg:block" href="">What's Included</a>
-          <a className="hidden text-lg lg:block" href="">How It Works</a>
-          <a className="hidden text-lg lg:block" href="">Pricing</a>
-          <button className="hidden md:block items-center my-auto py-1 bg-black text-white rounded-xl border-2 border-black hover:bg-white hover:text-black">
-            <a className="px-4 text-sm" href="">
-              Get a free Audit
-            </a>
-          </button>
-          <div className="h-12 w-12 mr-4 cursor-pointer lg:hidden">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+        <div className="flex items-center gap-8 mr-4 text-xl font-light">
+            <a
+              className="hidden font-normal text-lg lg:block relative overflow-hidden group"
+              href="#whatwedo"
             >
-              <path
-                d="M4 12H20M4 8H20M4 16H12"
-                stroke="#000000"
-                strokeWidth="0.696"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+              <span className="relative inline-block after:block after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-0 after:bg-current after:transition-all after:duration-300 group-hover:after:w-full">
+                Benefits
+              </span>
+            </a>
+            <a
+              className="hidden font-normal text-lg lg:block relative overflow-hidden group"
+              href="#testimonials"
+            >
+              <span className="relative inline-block after:block after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-0 after:bg-current after:transition-all after:duration-300 group-hover:after:w-full">
+                Testimonials
+              </span>
+            </a>
+            <a
+              className="hidden font-normal text-lg lg:block relative overflow-hidden group"
+              href="https://nocodenest.vercel.app/"
+              target="_blank"
+            >
+              <span className="relative inline-block after:block after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-0 after:bg-current after:transition-all after:duration-300 group-hover:after:w-full">
+                What's Included
+              </span>
+            </a>
+            <a
+              className="hidden font-normal text-lg lg:block relative overflow-hidden group"
+              href="#ourgoals"
+            >
+              <span className="relative inline-block after:block after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-0 after:bg-current after:transition-all after:duration-300 group-hover:after:w-full">
+                How It Works
+              </span>
+            </a>
+            <a
+              className="hidden font-normal text-lg lg:block relative overflow-hidden group"
+              href="#whatwedo"
+            >
+              <span className="relative inline-block after:block after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-0 after:bg-current after:transition-all after:duration-300 group-hover:after:w-full">
+                Pricing
+              </span>
+            </a>
+            <button
+              className="hidden py-2 px-4 rounded-lg font-normal text-lg md:block relative overflow-hidden group bg-black text-white hover:bg-white hover:text-black"
+            >
+              <span className="relative inline-block after:block after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-0 after:bg-current after:transition-all after:duration-300 group-hover:after:w-full">
+                Get a Free Audit
+              </span>
+            </button>
+            <div className="h-12 w-12 mr-4 cursor-pointer lg:hidden">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 12H20M4 8H20M4 16H12"
+                  stroke="#000000"
+                  strokeWidth="0.696"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
           </div>
-        </div>
       </div>
     </div>
   );
